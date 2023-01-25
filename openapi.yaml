@@ -1752,6 +1752,7 @@ paths:
     post:
       tags:
         - Cardano » Transactions
+        - Hosted
       summary: Submit a transaction
       description: Submit an already serialized transaction to the network.
       parameters:
@@ -2426,6 +2427,7 @@ paths:
     get:
       tags:
         - Cardano » Mempool
+        - Hosted
       summary: Mempool
       description: >-
         Return transactions that are currently stored in Blockfrost mempool,
@@ -4464,6 +4466,7 @@ paths:
     post:
       tags:
         - Cardano » Utilities
+        - Hosted
       summary: Submit a transaction for execution units evaluation
       description: >-
         Submit an already serialized transaction to evaluate how much execution
@@ -4520,6 +4523,7 @@ paths:
     post:
       tags:
         - IPFS » Add
+        - Hosted
       summary: Add a file to IPFS
       description: >
         You need to `/ipfs/pin/add` an object to avoid it being garbage
@@ -4575,6 +4579,7 @@ paths:
     get:
       tags:
         - IPFS » Gateway
+        - Hosted
       summary: Relay to an IPFS gateway
       description: >-
         Retrieve an object from the IPFS gateway (useful if you do not want to
@@ -4607,6 +4612,7 @@ paths:
     post:
       tags:
         - IPFS » Pins
+        - Hosted
       summary: Pin an object
       description: Pinned objects are counted in your user storage quota.
       parameters:
@@ -4657,6 +4663,7 @@ paths:
     get:
       tags:
         - IPFS » Pins
+        - Hosted
       summary: List pinned objects
       description: List objects pinned to local storage
       parameters:
@@ -4759,6 +4766,7 @@ paths:
     get:
       tags:
         - IPFS » Pins
+        - Hosted
       summary: Get details about pinned object
       description: Get information about locally pinned IPFS object
       parameters:
@@ -4838,6 +4846,7 @@ paths:
     post:
       tags:
         - IPFS » Pins
+        - Hosted
       summary: Remove a IPFS pin
       description: Remove pinned objects from local storage
       parameters:

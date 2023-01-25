@@ -3,6 +3,7 @@ servers:
 post:
   tags:
     - IPFS » Pins
+    - Hosted
   summary: Pin an object
   description: Pinned objects are counted in your user storage quota.
   parameters:

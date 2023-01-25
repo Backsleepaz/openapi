@@ -1,6 +1,7 @@
 post:
   tags:
     - Cardano » Transactions
+    - Hosted
   summary: Submit a transaction
   description: Submit an already serialized transaction to the network.
   parameters:

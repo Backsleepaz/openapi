@@ -3,6 +3,7 @@ servers:
 get:
   tags:
     - IPFS » Pins
+    - Hosted
   summary: List pinned objects
   description: List objects pinned to local storage
   parameters:
